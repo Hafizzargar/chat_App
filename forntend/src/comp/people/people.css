@@ -1,0 +1,142 @@
+.chatpeople{
+    background-image: url('../../../public/m11.jpg');
+    border: 1px solid black;
+    display: flex;
+    background-position:center;
+    height: 500px;
+
+    
+}
+.peoples{
+    background-color: rgba(60, 215, 215, 0.646);
+    padding: 10px;
+    
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px white;
+
+
+}
+.chat {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    width: 80%;
+    /* margin: auto; */
+    border: 1px solid black;
+  }
+  
+  .sender {
+    background-color: #0084ff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    max-width: 60%;
+    align-self: flex-end; /* Align to the right */
+  }
+  
+  .receiver {
+    background-color: #f1f0f0;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 15px;
+    max-width: 60%;
+    align-self: flex-start; /* Align to the left */
+  }
+  .helpcenter{
+    background-color: black;
+    color: #0084ff;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline;
+    position: absolute;
+    bottom: 10px;
+  }
+  .helpcenter:hover{
+    background-color: #ff4800;
+    padding: 11px;
+    box-shadow: 1px 10px 10px rgb(250, 19, 19);
+    cursor: pointer;
+  }
+  .people{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y:auto ;
+    overflow-x: hidden;
+  }
+  .people>div{
+    border:1px solid red;
+    background-color: #f2885f;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .people>div:hover{
+    background-color: #0084ff;
+    cursor: pointer;
+
+  }
+
+  .peoples {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .people {
+    width: 300px; /* Set appropriate width */
+    max-height: 100vh; /* Limit height to enable scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 2px solid black;
+    padding: 10px;
+  }
+  
+  /* Optional: Customize Scrollbar for WebKit Browsers */
+  .people::-webkit-scrollbar {
+    width: 8px; /* Width of scrollbar */
+  }
+  
+  .people::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Light background */
+  }
+  
+  .people::-webkit-scrollbar-thumb {
+    background: #888; /* Dark gray */
+    border-radius: 5px;
+  }
+.peo{
+  background-color: #00ff95;
+}
+
+
+.input{
+  padding: 10px;
+  max-width: 500px;
+  border: none;
+  background-color: #0986fbe0;
+  color:rgb(0, 0, 0);
+  position: absolute;
+  bottom: 10px;
+  
+}
+.input:hover{
+  background-color: rgba(178, 232, 78, 0.477);
+  color:rgb(245, 245, 245);
+  border: none;
+}
+button{
+  padding: 15px;
+  background-color: #00ff11;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.search{
+  padding: 10px;
+  width: 90%;
+  background-color: #0084ff77;
+  margin: 10px;
+}

@@ -1,0 +1,83 @@
+/* Basic styling */
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    position: relative;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 55px;
+    border-radius: 30px;
+    border: 2px solid red;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .logo:hover {
+    transform: scale(1.1); /* Hover effect to attract users */
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .link:hover {
+    color: #ff6347; /* Color change on hover */
+  }
+  
+  .logout {
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .logout:hover {
+    color: #ff6347; /* Color change on hover */
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 590px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .logo-container {
+      margin-bottom: 20px;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .link {
+      margin: 10px 0;
+      font-size: 20px;
+    }
+  
+    .logout {
+      margin-top: 10px;
+    }
+  }
+  

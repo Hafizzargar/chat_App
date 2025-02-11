@@ -1,0 +1,42 @@
+@keyframes changeBackground {
+    0% { background-color: #ff5733; } /* Red */
+    25% { background-color: #33ff57; } /* Green */
+    50% { background-color: #3357ff; } /* Blue */
+    75% { background-color: #ff33a6; } /* Pink */
+    100% { background-color: #ff5733; } /* Back to Red */
+  }
+  
+  .notfound {
+    text-align: center;
+    margin-top: 150px;
+    padding: 20px;
+    animation: changeBackground 4s infinite; /* Animation lasts 4 seconds and loops */
+    transition: background-color 1s ease-in-out;
+    height: 200px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: white;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: white;
+  }
+  
+  .home-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .home-btn:hover {
+    background-color: gray;
+  }
+  
